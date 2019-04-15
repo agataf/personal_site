@@ -4,8 +4,18 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Hyde hyde hyde
+- type: document
+  path: nauka-za-granica
+  label: Nauka za granicą
+  match: "**/*"
+- type: document
+  path: projects
+  label: Projects
+  match: "**/*"
+- type: document
+  path: home
+  label: Home
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
